@@ -107,7 +107,7 @@ def main():
 
     gen_best_cost = 0
     gen_best_matrix = copy.deepcopy(seed_matrix) #copy by value instead of references
-    gen_best_matrix = copy.deepcopy(frame_matrix) #copy by value instead of references
+    gen_best_matrix = copy.deepcopy(frame_matrix) #use frame as seed matrix
 
     # counts number of times a better solution is not found by the PSO
     # equivalent to number of times padding routines are called
