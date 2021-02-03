@@ -1,0 +1,7 @@
+__pycache__/
+Data/
+Images/
+*.csv
+*.txt
+*.xlsx
+.vscode/
